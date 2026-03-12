@@ -1,0 +1,91 @@
+{
+  "cine_path": "D:\\backlit shadowgraphy\\20250312_bg=1_Ql=0.2_mLPM_Qg=34_SLPM_.cine",
+  "image_shape_hw": [
+    800,
+    2048
+  ],
+  "fps": 7600.0,
+  "first_image_no": -7600,
+  "total_frames_in_cine": 7601,
+  "analyzed_start_frame": 1,
+  "analyzed_count_read": 7601,
+  "analyzed_stride": 2,
+  "analyzed_frames_effective": 3801,
+  "roi_pixels": 1502928,
+  "roi_fraction_of_frame": 0.917314453125,
+  "config": {
+    "blur_kernel": 91,
+    "right_crop_frac": 0.06,
+    "border_frac": 0.01,
+    "min_component_area": 9
+  },
+  "metrics_summary": {
+    "area_fraction": {
+      "mean": 0.08061214154800138,
+      "std": 0.008200368327478712,
+      "min": 0.05327800134138162,
+      "p05": 0.06670445956160242,
+      "median": 0.08066321207669296,
+      "p95": 0.09399718416318013,
+      "max": 0.11001125802433649
+    },
+    "perimeter_density": {
+      "mean": 0.02942713024568202,
+      "std": 0.0027878435129361496,
+      "min": 0.02018362589930327,
+      "p05": 0.024763334167588753,
+      "median": 0.02943284751153219,
+      "p95": 0.03393659767734357,
+      "max": 0.03959817741671704
+    },
+    "euler_chi": {
+      "mean": -192.97605893186002,
+      "std": 224.8006997242612,
+      "min": -1326.0,
+      "p05": -592.0,
+      "median": -169.0,
+      "p95": 130.0,
+      "max": 451.0
+    },
+    "euler_density": {
+      "mean": -0.00012840006901984662,
+      "std": 0.00014957516243243934,
+      "min": -0.0008822777937466066,
+      "p05": -0.0003938977782036132,
+      "median": -0.00011244716979123418,
+      "p95": 8.649782291633399e-05,
+      "max": 0.0003000809087328202
+    },
+    "threshold_enhanced": {
+      "mean": 52.50747350177399,
+      "std": 4.29907490585691,
+      "min": 38.42340850830078,
+      "p05": 45.549224853515625,
+      "median": 52.38003921508789,
+      "p95": 59.74530029296875,
+      "max": 73.43856811523438
+    }
+  },
+  "trend_slopes": {
+    "area_fraction_slope_per_s": -0.00011683718630469614,
+    "perimeter_density_slope_per_s": -1.0266288677994001e-05,
+    "euler_density_slope_per_s": -1.0785953747343008e-05
+  },
+  "correlations": {
+    "area_vs_perimeter_density": 0.9037880705081438,
+    "area_vs_euler_density": -0.551956584143126,
+    "perimeter_vs_euler_density": -0.5566137555862711
+  },
+  "extrema": {
+    "max_area_fraction_frame": 5607,
+    "min_area_fraction_frame": 7239,
+    "max_euler_density_frame": 3005,
+    "min_euler_density_frame": 5401
+  },
+  "outputs": {
+    "csv": "C:\\Users\\Yash Bisht\\OneDrive\\Desktop\\C++\\shadowgraphy_topology\\results_20250312_bg1_ql0p2_qg34\\per_frame_minkowski.csv",
+    "timeseries_plot": "C:\\Users\\Yash Bisht\\OneDrive\\Desktop\\C++\\shadowgraphy_topology\\results_20250312_bg1_ql0p2_qg34\\timeseries.png",
+    "phase_plot": "C:\\Users\\Yash Bisht\\OneDrive\\Desktop\\C++\\shadowgraphy_topology\\results_20250312_bg1_ql0p2_qg34\\phase_area_vs_euler.png",
+    "preview_plot": "C:\\Users\\Yash Bisht\\OneDrive\\Desktop\\C++\\shadowgraphy_topology\\results_20250312_bg1_ql0p2_qg34\\segmentation_previews.png"
+  }
+}
