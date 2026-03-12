@@ -1,0 +1,16 @@
+{
+  "cine_path": "D:\\backlit shadowgraphy\\20250312_scale_.cine",
+  "known_diameter_mm": 6.35,
+  "detected_diameter_px_median": 370.0,
+  "detected_diameter_px_mean": 370.09302325581393,
+  "detected_diameter_px_std": 1.0072747826840798,
+  "scale_mm_per_px": 0.01716216216216216,
+  "scale_px_per_mm": 58.267716535433074,
+  "scale_um_per_px": 17.16216216216216,
+  "fit_x_range_px": [
+    978.0,
+    1604.0
+  ],
+  "num_edge_samples": 301,
+  "diagnostic_plot": "C:\\Users\\Yash Bisht\\OneDrive\\Desktop\\C++\\shadowgraphy_topology\\scale_calibration_20250312\\scale_detection.png"
+}
